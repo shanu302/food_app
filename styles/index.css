@@ -1,0 +1,77 @@
+nav{
+    border-bottom: 2px solid #68c3d1;
+}
+main{
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
+.row{
+    margin-left:0;
+    margin-right: 0;;
+}
+.center{
+    display:flex;
+    align-items: center;
+}
+
+.jumbotron{
+    background: #68c3d1;
+    color: whitesmoke;
+}
+
+.card-img-top{
+    min-height: 200px;
+    /* background-image: url('../assets/img/restro.jpg'); */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: round;
+}
+
+#imagePreview img{
+    height: 136px;
+}
+
+.food-type{
+    font-size:1rem;
+}
+
+.veg{
+    color:green;
+}
+
+.non-veg{
+    color:brown;
+}
+
+.cross-pointer{
+    cursor: not-allowed;
+}
+footer {
+    position: relative;
+    bottom:0;
+    
+}
+.footer-div {
+    height:60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f8f9fa;
+    color: black;
+    border-top: 2px solid #68c3d1;
+}
+.footer-div p{
+    padding: unset;
+    margin: unset;
+}
+
+.footer-div .social-media i{
+    padding:5px;
+}
+.footer-div .social-media i:hover{
+    color: #68c3d1;
+}
+
+.footer-div a{
+    color: black;
+}
+
